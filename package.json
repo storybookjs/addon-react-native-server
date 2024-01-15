@@ -1,6 +1,6 @@
 {
   "name": "@storybook/addon-react-native-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sync up multiple devices via websockets",
   "keywords": [
     "react-native",
@@ -16,12 +16,12 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "node": "./dist/index.js", 
+      "node": "./dist/index.js",
       "require": "./dist/index.js",
       "import": "./dist/index.mjs"
     },
     "./preset": {
-      "node": "./dist/preset.js", 
+      "node": "./dist/preset.js",
       "require": "./dist/preset.js",
       "import": "./dist/preset.mjs"
     },
