@@ -34,9 +34,9 @@ export async function experimental_serverChannel(
             const json = JSON.parse(data.toString());
 
             if (json.args.length > 0) {
-              channel.emit(json.type, json.args[0]);
+              channel.emit?.(json.type, json.args[0]);
             } else {
-              channel.emit(json.type);
+              channel.emit?.(json.type);
             }
           } catch (error) {
             console.error(error);
