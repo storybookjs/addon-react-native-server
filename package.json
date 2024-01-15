@@ -16,11 +16,15 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "node": "./dist/index.js",
+      "node": "./dist/index.js", 
       "require": "./dist/index.js",
       "import": "./dist/index.mjs"
     },
-    "./preset": "./dist/preset.mjs",
+    "./preset": {
+      "node": "./dist/preset.js", 
+      "require": "./dist/preset.js",
+      "import": "./dist/preset.mjs"
+    },
     "./package.json": "./package.json"
   },
   "main": "dist/index.js",

@@ -1,1 +1,3 @@
-export * from "./dist/preset";
+module.exports = {
+    experimental_serverChannel: require("./dist/preset.js")
+}
