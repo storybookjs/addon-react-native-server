@@ -1,4 +1,4 @@
-# Storybook Addon Addon React Native Server
+# Storybook Addon React Native Server
 
 Sync up multiple devices via websockets
 
