@@ -1,3 +1,15 @@
+# v0.0.5 (Mon Jan 15 2024)
+
+#### 🐛 Bug Fix
+
+- feat: decorator can be used to hide story on web [#3](https://github.com/storybookjs/addon-react-native-server/pull/3) ([@dannyhw](https://github.com/dannyhw))
+
+#### Authors: 1
+
+- Daniel Williams ([@dannyhw](https://github.com/dannyhw))
+
+---
+
 # v0.0.4 (Mon Jan 15 2024)
 
 #### ⚠️ Pushed to `main`
