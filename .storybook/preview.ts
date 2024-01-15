@@ -2,6 +2,7 @@ import type { Preview } from "@storybook/react";
 
 const preview: Preview = {
   parameters: {
+    deviceOnly: true,
     backgrounds: {
       default: "light",
     },

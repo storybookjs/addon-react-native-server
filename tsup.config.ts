@@ -3,6 +3,11 @@ import { globalPackages as globalManagerPackages } from "@storybook/manager/glob
 import { globalPackages as globalPreviewPackages } from "@storybook/preview/globals";
 
 const NODE_TARGET: Options["target"] = ["node16"];
+const BROWSER_TARGET: Options["target"] = [
+  "chrome100",
+  "safari15",
+  "firefox91",
+];
 
 export default defineConfig(async (options) => {
   const commonConfig: Options = {
@@ -24,6 +29,14 @@ export default defineConfig(async (options) => {
       target: [...NODE_TARGET],
       platform: "node",
       external: [...globalManagerPackages, ...globalPreviewPackages],
+    },
+    {
+      ...commonConfig,
+      entry: ["src/preview.tsx"],
+      format: ["esm"],
+      target: BROWSER_TARGET,
+      platform: "browser",
+      external: globalPreviewPackages,
     },
   ];
 });
