@@ -45,6 +45,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:18.19.7"],\
           ["@types/react", "npm:16.14.56"],\
           ["@types/react-dom", "npm:16.9.24"],\
+          ["@types/ws", "npm:8.5.10"],\
           ["@vitejs/plugin-react", "virtual:5bab3a48e9afc971b5ef2d605d04a52d18e3e7adece3e95eaa23f216932929ea8de3ce9b5507866ec6978ec2def96ae1b366343d885431e371bc45510515da01#npm:4.2.1"],\
           ["auto", "npm:11.0.4"],\
           ["boxen", "npm:7.1.1"],\
@@ -59,6 +60,7 @@ const RAW_RUNTIME_STATE =
           ["tsup", "virtual:5bab3a48e9afc971b5ef2d605d04a52d18e3e7adece3e95eaa23f216932929ea8de3ce9b5507866ec6978ec2def96ae1b366343d885431e371bc45510515da01#npm:7.2.0"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
           ["vite", "virtual:5bab3a48e9afc971b5ef2d605d04a52d18e3e7adece3e95eaa23f216932929ea8de3ce9b5507866ec6978ec2def96ae1b366343d885431e371bc45510515da01#npm:4.5.1"],\
+          ["ws", "virtual:a96bcf2cc7948c053efc603591067439ebf8d12588cefa2594dc893e99cb3e0614be3d4a13c8c59ebb2ef75a6027be583bf98c6f5b83ed25dabed25179bdf2f9#npm:8.16.0"],\
           ["zx", "npm:7.2.3"]\
         ],\
         "linkType": "SOFT"\
@@ -5233,6 +5235,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:18.19.7"],\
           ["@types/react", "npm:16.14.56"],\
           ["@types/react-dom", "npm:16.9.24"],\
+          ["@types/ws", "npm:8.5.10"],\
           ["@vitejs/plugin-react", "virtual:5bab3a48e9afc971b5ef2d605d04a52d18e3e7adece3e95eaa23f216932929ea8de3ce9b5507866ec6978ec2def96ae1b366343d885431e371bc45510515da01#npm:4.2.1"],\
           ["auto", "npm:11.0.4"],\
           ["boxen", "npm:7.1.1"],\
@@ -5247,6 +5250,7 @@ const RAW_RUNTIME_STATE =
           ["tsup", "virtual:5bab3a48e9afc971b5ef2d605d04a52d18e3e7adece3e95eaa23f216932929ea8de3ce9b5507866ec6978ec2def96ae1b366343d885431e371bc45510515da01#npm:7.2.0"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
           ["vite", "virtual:5bab3a48e9afc971b5ef2d605d04a52d18e3e7adece3e95eaa23f216932929ea8de3ce9b5507866ec6978ec2def96ae1b366343d885431e371bc45510515da01#npm:4.5.1"],\
+          ["ws", "virtual:a96bcf2cc7948c053efc603591067439ebf8d12588cefa2594dc893e99cb3e0614be3d4a13c8c59ebb2ef75a6027be583bf98c6f5b83ed25dabed25179bdf2f9#npm:8.16.0"],\
           ["zx", "npm:7.2.3"]\
         ],\
         "linkType": "SOFT"\
@@ -6733,6 +6737,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/@types-which-npm-3.0.3-6a5b8002e5-10c0.zip/node_modules/@types/which/",\
         "packageDependencies": [\
           ["@types/which", "npm:3.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/ws", [\
+      ["npm:8.5.10", {\
+        "packageLocation": "../../../.yarn/berry/cache/@types-ws-npm-8.5.10-a877a38f71-10c0.zip/node_modules/@types/ws/",\
+        "packageDependencies": [\
+          ["@types/ws", "npm:8.5.10"],\
+          ["@types/node", "npm:20.11.2"]\
         ],\
         "linkType": "HARD"\
       }]\
