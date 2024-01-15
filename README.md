@@ -40,6 +40,12 @@ Once the server is running you can reload your mobile device to make sure it con
 
 You can also use @storybook/addon-react-native-web to make sure the web version of your stories renders in the browser.
 
+You can use the deviceOnly parameter to avoid rendering some or all stories depending on if you add the parameter at the story or global level.
+
+```
+parameters: { deviceOnly: true },
+```
+
 ## Development
 
 ### Development scripts
