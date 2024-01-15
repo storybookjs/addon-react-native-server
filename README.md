@@ -4,6 +4,8 @@ Sync up multiple devices via websockets
 
 ## Installation
 
+Note that this package is intended for storybook 7 and newer.
+
 First, install the package.
 
 ```sh
