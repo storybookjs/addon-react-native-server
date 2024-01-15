@@ -25,6 +25,7 @@
       "require": "./dist/preset.js",
       "import": "./dist/preset.mjs"
     },
+    "./preview": "./dist/preview.mjs",
     "./package.json": "./package.json"
   },
   "main": "dist/index.js",
@@ -34,14 +35,15 @@
     "dist/**/*",
     "README.md",
     "*.js",
-    "*.d.ts"
+    "*.d.ts",
+    "preset.mjs",
+    "preview.mjs"
   ],
   "scripts": {
     "clean": "rimraf ./dist",
     "prebuild": "npm run clean",
     "build": "tsup",
     "build:watch": "npm run build -- --watch",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "run-p build:watch 'storybook --quiet'",
     "prerelease": "zx scripts/prepublish-checks.mjs",
     "release": "npm run build && auto shipit",
