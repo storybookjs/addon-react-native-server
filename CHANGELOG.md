@@ -1,3 +1,20 @@
+# v0.0.6 (Sun Sep 22 2024)
+
+#### 🐛 Bug Fix
+
+- feat: upgrade v8 [#6](https://github.com/storybookjs/addon-react-native-server/pull/6) ([@dannyhw](https://github.com/dannyhw))
+- Update README.md [#4](https://github.com/storybookjs/addon-react-native-server/pull/4) ([@dannyhw](https://github.com/dannyhw))
+
+#### ⚠️ Pushed to `main`
+
+- release ([@dannyhw](https://github.com/dannyhw))
+
+#### Authors: 1
+
+- Daniel Williams ([@dannyhw](https://github.com/dannyhw))
+
+---
+
 # v0.0.5 (Mon Jan 15 2024)
 
 #### 🐛 Bug Fix
