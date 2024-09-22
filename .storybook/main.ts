@@ -12,9 +12,7 @@ const config: StorybookConfig = {
     name: "@storybook/react-vite",
     options: {},
   },
-  docs: {
-    autodocs: "tag",
-  },
+  docs: {},
   // @ts-ignore
   reactNativeServerOptions: {
     host: "192.168.1.69",
