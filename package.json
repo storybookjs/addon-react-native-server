@@ -51,10 +51,6 @@
     "build-storybook": "storybook build",
     "format": "prettier --write ."
   },
-  "peerDependencies": {
-    "storybook": ">=9",
-    "react": "*"
-  },
   "dependencies": {
     "ws": "^8.16.0"
   },
