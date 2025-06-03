@@ -1,6 +1,6 @@
 {
   "name": "@storybook/addon-react-native-server",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Sync up multiple devices via websockets",
   "keywords": [
     "react-native",
