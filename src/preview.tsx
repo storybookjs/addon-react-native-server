@@ -1,4 +1,4 @@
-import type { ProjectAnnotations, Renderer } from "@storybook/types";
+import type { ProjectAnnotations, Renderer } from "storybook/internal/types";
 import React from "react";
 
 /**
