@@ -39,7 +39,7 @@ export async function experimental_serverChannel(
               console.log("args: ", json.args[0]);
             }
 
-            if (json.args.length > 0) {
+            if (json.args && Array.isArray(json.args) && json.args.length > 0) {
               channel.emit?.(json.type, json.args[0]);
             } else {
               channel.emit?.(json.type);
@@ -49,6 +49,12 @@ export async function experimental_serverChannel(
           }
         });
       });
+
+      setInterval(function ping() {
+        wss.clients.forEach(function each(ws) {
+          ws.send(JSON.stringify({ type: "ping", args: [] }));
+        });
+      }, 10000);
 
       [
         ...Object.values(EVENTS),
