@@ -1,3 +1,20 @@
+# v1.0.0 (Tue Jun 03 2025)
+
+#### 💥 Breaking Change
+
+- fix: release [#11](https://github.com/storybookjs/addon-react-native-server/pull/11) ([@dannyhw](https://github.com/dannyhw))
+
+#### 🐛 Bug Fix
+
+- fix: updates for storybook v9 [#10](https://github.com/storybookjs/addon-react-native-server/pull/10) ([@garethknowles](https://github.com/garethknowles) [@dannyhw](https://github.com/dannyhw))
+
+#### Authors: 2
+
+- Daniel Williams ([@dannyhw](https://github.com/dannyhw))
+- Gareth Knowles ([@garethknowles](https://github.com/garethknowles))
+
+---
+
 # v0.0.7 (Tue Jun 03 2025)
 
 #### 🐛 Bug Fix
