@@ -1,6 +1,6 @@
 import { defineConfig, type Options } from "tsup";
-import { globalPackages as globalManagerPackages } from "@storybook/core/manager/globals";
-import { globalPackages as globalPreviewPackages } from "@storybook/core/preview/globals";
+import { globalPackages as globalManagerPackages } from "storybook/internal/manager/globals";
+import { globalPackages as globalPreviewPackages } from "storybook/internal/preview/globals";
 
 const NODE_TARGET: Options["target"] = ["node16"];
 const BROWSER_TARGET: Options["target"] = [

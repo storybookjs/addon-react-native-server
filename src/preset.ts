@@ -1,7 +1,7 @@
-import { Channel } from "@storybook/core/channels";
-import { Options } from "@storybook/core/types";
+import { Channel } from "storybook/internal/channels";
+import { Options } from "storybook/internal/types";
 import { WebSocketServer } from "ws";
-import EVENTS from "@storybook/core/core-events";
+import EVENTS from "storybook/internal/core-events";
 
 export type ReactNativeServerOptions = {
   host?: string;

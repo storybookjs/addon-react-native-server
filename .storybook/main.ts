@@ -1,21 +1,18 @@
-import type { StorybookConfig } from "@storybook/react-vite";
+import type { StorybookConfig } from "@storybook/react-native-web-vite";
 
 const config: StorybookConfig = {
   stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
-  addons: [
-    "@storybook/addon-links",
-    "@storybook/addon-essentials",
-    "@storybook/addon-interactions",
-    "./local-preset.js",
-  ],
+  addons: ["./local-preset.js", "@storybook/addon-docs"],
   framework: {
-    name: "@storybook/react-vite",
+    name: "@storybook/react-native-web-vite",
     options: {},
   },
-  docs: {},
+  typescript: {
+    reactDocgen: "react-docgen",
+  },
   // @ts-ignore
   reactNativeServerOptions: {
-    host: "192.168.1.69",
+    host: "192.168.1.137",
     port: 7008,
   },
 };
