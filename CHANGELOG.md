@@ -1,3 +1,15 @@
+# v0.0.7 (Tue Jun 03 2025)
+
+#### 🐛 Bug Fix
+
+- fix: add server heartbeat ping [#9](https://github.com/storybookjs/addon-react-native-server/pull/9) ([@vahidtvj](https://github.com/vahidtvj))
+
+#### Authors: 1
+
+- [@vahidtvj](https://github.com/vahidtvj)
+
+---
+
 # v0.0.6 (Sun Sep 22 2024)
 
 #### 🐛 Bug Fix
