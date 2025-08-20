@@ -1,3 +1,15 @@
+# v1.0.1 (Wed Aug 20 2025)
+
+#### 🐛 Bug Fix
+
+- docs: Update links to actions docs page [#12](https://github.com/storybookjs/addon-react-native-server/pull/12) ([@Sidnioulz](https://github.com/Sidnioulz))
+
+#### Authors: 1
+
+- Steve Dodier-Lazaro ([@Sidnioulz](https://github.com/Sidnioulz))
+
+---
+
 # v1.0.0 (Tue Jun 03 2025)
 
 #### 💥 Breaking Change
